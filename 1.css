@@ -1,0 +1,61 @@
+svg{
+    width: 40px;
+    height: 40px;
+}
+.img2{
+    width: 120px;
+    height: 24px;
+}
+.img1{
+    width: 90%;
+    max-width: 420px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+}
+.text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button3 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.button1, .button2 {
+    background-color: rgb(196, 196, 52);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}   
+
+.button1:hover, .button2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.button2{
+    background-color: rgb(50, 83, 203);
+}
+
+@media screen and (max-width: 480px) {
+    .img1 {
+        width: 95%;
+    }
+    
+    .button1, .button2 {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+}
